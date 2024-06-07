@@ -52,7 +52,7 @@ Jetzt ist alles bereit, um den nextcloud-aio-mastercontainer zu starten:
 sudo docker compose up -d
 ```
 
-Das kann eine Weile dauern. Sie können mit dem Befehl `docker ps` schauen, ob der Container bereit ist. Sobald er den Status `healthy` anzeigt, sollten Sie im Browser über https://<IP-Adresse des Servers>:8080 die Weboberfläche des AIO-Containers aufrufen können. 
+Das kann eine Weile dauern. Sie können mit dem Befehl `docker ps` schauen, ob der Container bereit ist. Sobald er den Status `healthy` anzeigt, sollten Sie im Browser über https://:IP-Adresse des Servers:8080 die Weboberfläche des AIO-Containers aufrufen können. 
 
 Sie können jetzt im Artikel fortfahren.
 
