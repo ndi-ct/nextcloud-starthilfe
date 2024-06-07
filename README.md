@@ -13,7 +13,7 @@ Voraussetzung: Sie brauchen eine eigene Domain und müssen einen A-Record setzen
 Wenn Sie mittels SSH auf dem Server eingeloggt sind, sollten Sie zunächst das System auf den neuesten Stand bringen:
 
 ```
-apt update && apt upgrade
+sudo apt update && apt upgrade
 ```
 
 Danach installieren Sie Docker, am besten aus den offiziellen Docker-Paketquellen:
@@ -49,7 +49,7 @@ Bearbeiten Sie mit einem Texteditor (z.B. `nano Caddyfile`) die Datei Caddyfile 
 Jetzt ist alles bereit, um den nextcloud-aio-mastercontainer zu starten:
 
 ```
-docker compose up -d
+sudo docker compose up -d
 ```
 
 Das kann eine Weile dauern. Sie können mit dem Befehl `docker ps` schauen, ob der Container bereit ist. Sobald er den Status `healthy` anzeigt, sollten Sie im Browser über https://<IP-Adresse des Servers>:8080 die Weboberfläche des AIO-Containers aufrufen können. 
