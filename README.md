@@ -2,7 +2,7 @@
 
 ![nextcloud](https://github.com/ndi-ct/nextcloud-starthilfe/assets/78471292/d4d48ac4-ee8e-434b-923c-0f2ff8991c51)
 
-Dies ist ein GitHub-Repository zum Artikel "Nextcloud wetterfest machen", erschienen bei heise+ und im c't Magazin 14/2024. Es enthält eine vereinfachte docker-compose.yaml-Datei, die von der offiziellen compose.yaml-Datei des Nextcloud-AIO-Projekts abgeleitet ist sowie ein Caddyfile, eine Konfigurationsdatei für den Reverse-Proxy Caddy.
+Dies ist ein GitHub-Repository zum Artikel "Nextcloud wetterfest machen", erschienen bei heise+ und ![im c't Magazin 14/2024](https://www.heise.de/select/ct/2024/14/2411012215016468681). Es enthält eine vereinfachte docker-compose.yaml-Datei, die von der offiziellen ![compose.yaml-Datei des Nextcloud-AIO-Projekts](https://github.com/nextcloud/all-in-one/blob/main/compose.yaml) abgeleitet ist sowie ein Caddyfile, eine Konfigurationsdatei für den Reverse-Proxy Caddy.
 
 Diese Konfiguration ist dafür gedacht, Nextcloud AIO auf einem angemieteten Server mit öffentlichter IPv4-Adresse zu betreiben. c't hat das Setup auf einem Server mit Ubuntu Server 24.04 LTS getestet, aber es sollte auf jeder Linux-Distribution mit Docker funktionieren. Wer Nextcloud im Heimnetz betreiben möchte (und öffentlich erreichbar machen will) sei die Dokumentation des Nextcloud-AIO-Projekts empfohlen.
 
